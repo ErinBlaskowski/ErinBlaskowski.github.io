@@ -6,8 +6,9 @@ body {
 
 h1 {
     text-align: center;
+    text-size-adjust: 20;
 
-    color: #A6AE5E;
+    color: #A23AB3;
 }
 
 h2 {
