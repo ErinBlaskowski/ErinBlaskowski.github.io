@@ -1,5 +1,7 @@
 body {
     background-image: url(images/Background.jpeg);
+    border-image-width: 10px;
+    background-color: rgb(185, 233, 241);
     background-repeat: no-repeat;
     font-family: Times New Roman, Franklin Gothic Medium;
 }
