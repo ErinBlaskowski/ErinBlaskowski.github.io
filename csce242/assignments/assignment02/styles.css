@@ -9,6 +9,7 @@ body {
     border: 5px solid rgb(28, 145, 89);
     display: block;
     margin: auto;
+    padding: 2px 5%;
 }
 
 #clock img{
@@ -16,6 +17,7 @@ body {
     border: 5px solid rgb(28, 145, 89); 
     display: block;
     margin: auto;
+    padding: 2px 5%;
 }
 
 .times table {
