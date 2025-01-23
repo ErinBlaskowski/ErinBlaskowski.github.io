@@ -17,7 +17,7 @@ body {
     margin: auto;
 }
 
-table{
+.table table{
     tr:ntsh-child(even) {
         background-color: #00c799;
     }
@@ -28,6 +28,10 @@ table{
     border: 10cm 10cm rgb(32, 105, 105);
 }
 
-text{
+head text{
+    color: #033227;
+}
+
+body text{
     color: #07211b;
 }
