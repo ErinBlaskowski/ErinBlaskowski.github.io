@@ -17,15 +17,15 @@ body {
     margin: auto;
 }
 
-.times table{
-    tr:ntsh-child(even) {
+.times table {
+    tr:nth-child(even) {
         background-color: #00c799;
     }
     tr:nth-child(odd) {
         background-color: #1b6655;
     }
-    padding: 20%;
-    border: 10cm 10cm rgb(0, 255, 255);
+    padding: 20px;
+    border: 1px solid rgb(0, 255, 255);
 }
 
 head text{
