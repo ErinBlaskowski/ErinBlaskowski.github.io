@@ -1,5 +1,6 @@
 body {
     background-image: url(images/Background.jpeg);
+    background-repeat: no-repeat;
     font-family: Times New Roman, Franklin Gothic Medium;
 }
 
@@ -19,21 +20,21 @@ body {
 
 .times table {
     tr:nth-child(even) {
-        background-color: #00c799;
+        background-color: #13e5b4;
     }
     tr:nth-child(odd) {
-        background-color: #1b6655;
+        background-color: #00c093;
     }
     padding: 20px;
-    border: 1px solid rgb(0, 255, 255);
+    border: 1px solid rgb(2, 80, 80);
 }
 
 head text{
-    color: #033227;
+    color: #226959;
 }
 
 body text{
-    color: #07211b;
+    color: #19584a;
 }
 
 .navigation a:link{
