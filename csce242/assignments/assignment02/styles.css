@@ -1,13 +1,33 @@
-#compass{
+body {
+    background: hsl(166, 56%, 79%);
+    font-family: Times New Roman, Franklin Gothic Medium;
+}
+
+#compass img{
     margin: 10px;
     border: 2px solid rgb(28, 145, 89);
     display: block;
     margin: auto;
 }
 
-#clock{
+#clock img{
     margin: 10px;
     border: 2px solid rgb(28, 145, 89); 
     display: block;
     margin: auto;
+}
+
+.table tr{
+    tr:nth-child(even) {
+        background-color: #00c799;
+    }
+    tr:nth-child(odd) {
+        background-color: #1b6655;
+    }
+    padding: 20%;
+    border: 10cm 10cm rgb(32, 105, 105);
+}
+
+text{
+    color: #07211b;
 }
