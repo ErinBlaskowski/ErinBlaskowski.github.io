@@ -29,15 +29,9 @@ p{
     color: #3daa89;
 }
 
-.assignments{
+.assignments a:link{
     text-align: left;
     text-decoration: none;
-    color: #0c533e;
+    color: #15674e;
 }
 
-.assignments img{
-    margin: 10px;
-    border: 2px solid rgb(28, 145, 89); /* choose a color */
-    display: block;
-    margin: auto;
-}

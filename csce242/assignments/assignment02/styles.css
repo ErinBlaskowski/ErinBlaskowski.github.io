@@ -1,0 +1,13 @@
+#compass{
+    margin: 10px;
+    border: 2px solid rgb(28, 145, 89);
+    display: block;
+    margin: auto;
+}
+
+#clock{
+    margin: 10px;
+    border: 2px solid rgb(28, 145, 89); 
+    display: block;
+    margin: auto;
+}
