@@ -33,5 +33,26 @@ p{
     text-align: left;
     text-decoration: none;
     color: #15674e;
+    background-color: #3beeb8;
+    padding: 20%;
 }
+
+.assignments a:visited{
+    color:aqua;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.assignments a:hover{
+    color:rgb(30, 156, 70);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.assignments a:active{
+    color:rgb(29, 143, 143);
+    background-color: transparent;
+    text-decoration: none;
+}
+
 
