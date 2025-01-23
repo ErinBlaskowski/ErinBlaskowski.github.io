@@ -29,7 +29,7 @@ p{
     color: #3daa89;
 }
 
-lnk:link{
+a:link{
     text-align: left;
     text-decoration: none;
     color: #15674e;
@@ -37,20 +37,20 @@ lnk:link{
     padding: 0%;
 }
 
-lnk:visited{
+a:visited{
     color:aqua;
     background-color: transparent;
     text-decoration: none;
 }
 
-lnk:hover{
+a:hover{
     color:rgb(30, 156, 70);
     
     background-color: #3beeb8;
     text-decoration: none;
 }
 
-lnk:active{
+a:active{
     color:rgb(29, 143, 143);
     background-color: transparent;
     text-decoration: none;
