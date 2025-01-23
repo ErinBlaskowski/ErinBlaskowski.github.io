@@ -23,8 +23,23 @@ p{
     color: #0e3f30;
 }
 
-h3 {
+#assignment_header {
     text-align: left;
 
     color: #3daa89;
 }
+
+assignments{
+    text-align: left;
+    text-decoration: none;
+    color: #0c533e;
+}
+
+assignments img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(28, 145, 89); /* choose a color */
+    display: block;
+    margin: auto;
+    }
