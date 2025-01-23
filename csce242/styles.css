@@ -33,8 +33,8 @@ p{
     text-align: left;
     text-decoration: none;
     color: #15674e;
-    background-color: #3beeb8;
-    padding: 20%;
+    background-color: transparent;
+    padding: 0%;
 }
 
 .assignments a:visited{
@@ -45,7 +45,8 @@ p{
 
 .assignments a:hover{
     color:rgb(30, 156, 70);
-    background-color: transparent;
+    
+    background-color: #3beeb8;
     text-decoration: none;
 }
 
