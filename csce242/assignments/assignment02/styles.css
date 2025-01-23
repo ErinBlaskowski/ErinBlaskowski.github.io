@@ -17,8 +17,8 @@ body {
     margin: auto;
 }
 
-.table tr{
-    tr:nth-child(even) {
+table{
+    tr:ntsh-child(even) {
         background-color: #00c799;
     }
     tr:nth-child(odd) {
