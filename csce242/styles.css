@@ -29,7 +29,7 @@ p{
     color: #3daa89;
 }
 
-.assignments a:link{
+lnk:link{
     text-align: left;
     text-decoration: none;
     color: #15674e;
@@ -37,20 +37,20 @@ p{
     padding: 0%;
 }
 
-.assignments a:visited{
+lnk:visited{
     color:aqua;
     background-color: transparent;
     text-decoration: none;
 }
 
-.assignments a:hover{
+lnk:hover{
     color:rgb(30, 156, 70);
     
     background-color: #3beeb8;
     text-decoration: none;
 }
 
-.assignments a:active{
+lnk:active{
     color:rgb(29, 143, 143);
     background-color: transparent;
     text-decoration: none;
