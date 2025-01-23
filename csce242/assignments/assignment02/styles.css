@@ -35,3 +35,27 @@ head text{
 body text{
     color: #07211b;
 }
+
+a:link{
+    text-align: left;
+    text-decoration: none;
+    color: #15674e;
+    background-color: transparent;
+    padding: 0%;
+}
+
+a:visited{
+    text-align: left;
+    text-decoration: none;
+    color: #1bbfcb;
+    background-color: transparent;
+    padding: 0%;
+}
+
+a:hover{
+    text-align: left;
+    text-decoration: none;
+    color: #00ffd9;
+    background-color: transparent;
+    padding: 0%;
+}
