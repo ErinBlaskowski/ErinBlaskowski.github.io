@@ -1,6 +1,6 @@
 /* Structure */
 #main-header {
-    background-color:rgb(174, 250, 244);
+    background-color:rgb(134, 235, 227);
 }
 
 /* Navigation */
@@ -22,7 +22,7 @@
 
 /* Typography */
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #main-header h1 {
