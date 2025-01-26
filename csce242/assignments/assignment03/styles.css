@@ -7,6 +7,12 @@
     background-color:rgb(61, 201, 173);
 }
 
+.content{
+    background-color:rgb(185, 212, 236);
+    padding:3px;
+    margin:5px;
+}
+
 /* Navigation */
 #main-nav ul{
     padding-left: 0;
