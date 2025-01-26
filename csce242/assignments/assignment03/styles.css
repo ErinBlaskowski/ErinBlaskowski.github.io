@@ -23,6 +23,7 @@ body{
 /* Navigation */
 #main-nav ul{
     padding-left: 0;
+    border: 2px none coral;
 }
 
 #main-nav li {
@@ -35,6 +36,7 @@ body{
 #main-nav a{
     text-decoration: none;
     color:rgb(5, 65, 44);
+    margin: 5px;
 }
 
 /* Typography */
