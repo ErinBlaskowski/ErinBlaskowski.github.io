@@ -1,8 +1,7 @@
 /* Structure */
-#main-header {
-    background-color:rgb(134, 235, 227);
+body{
+    background-color:rgb(248, 224, 193);
 }
-
 #main-content {
     background-color:rgb(61, 201, 173);
 }
@@ -15,7 +14,7 @@
 }
 
 .columns, .columnsPt2{
-    background-color: rgb(248, 224, 193);
+    background-color: rgb(225, 177, 114);
     padding:3px;
     margin:5px;
     border-radius: 2px;
@@ -30,7 +29,7 @@
     list-style-type: none;
     padding: 5px;
     background-color: rgb(49, 205, 150);
-    border-bottom: 1px solid rgb(174, 250, 244);
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 #main-nav a{
@@ -41,7 +40,7 @@
 /* Typography */
 body{
     font-family: 'Times New Roman', Times, serif;
-    color:rgb(5, 65, 44);
+    color:rgb(11, 71, 50);
 }
 
 #main-header h1 {
