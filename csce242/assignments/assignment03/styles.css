@@ -3,6 +3,10 @@
     background-color:rgb(134, 235, 227);
 }
 
+#main-content {
+    background-color:rgb(0, 255, 174);
+}
+
 /* Navigation */
 #main-nav ul{
     padding-left: 0;
@@ -31,7 +35,7 @@ body{
 
 /* Larger Resolutions */
 @media (min-width: 900px) {
-  #main-nav ul{
+  #main-nav ul, .flex-container{
     display: flex;
   }
 
