@@ -14,6 +14,13 @@
     border-radius: 2px;
 }
 
+.columns, .columnsPt2{
+    background-color: rgb(248, 224, 193);
+    padding:3px;
+    margin:5px;
+    border-radius: 2px;
+}
+
 /* Navigation */
 #main-nav ul{
     padding-left: 0;
@@ -48,7 +55,11 @@ body{
     display: flex;
   }
 
-  #main-nav li, .content{
+  #main-nav li, .content, .columns{
     flex: 1;
+  }
+
+  .columnsPt2 {
+    flex: 2;
   }
 }
