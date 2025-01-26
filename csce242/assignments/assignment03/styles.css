@@ -2,8 +2,14 @@
 body{
     background-color:rgb(248, 224, 193);
 }
-#main-content {
-    background-color:rgb(61, 201, 173);
+#idea1 {
+    background-color:rgb(60, 255, 216);
+}
+#idea2 {
+    background-color:rgb(58, 199, 170);
+}
+#idea3 {
+    background-color:rgb(44, 140, 121);
 }
 
 .content{
@@ -22,15 +28,15 @@ body{
 
 /* Navigation */
 #main-nav ul{
-    padding-left: 0;
-    border: 2px none coral;
+    padding:0%;
+    margin: auto;
+    border-radius: 2px;
 }
 
 #main-nav li {
     list-style-type: none;
-    padding: 5px;
     background-color: rgb(49, 205, 150);
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 85, 0);
 }
 
 #main-nav a{
@@ -56,11 +62,7 @@ body{
     display: flex;
   }
 
-  #main-nav li, .content, .columns{
+  #main-nav li, .idea1, .idea2, .idea3{
     flex: 1;
-  }
-
-  .columnsPt2 {
-    flex: 2;
   }
 }
