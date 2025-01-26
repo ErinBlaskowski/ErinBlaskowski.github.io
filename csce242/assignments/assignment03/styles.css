@@ -10,13 +10,13 @@
 
 #main-nav li {
     list-style-type: none;
+    padding: 5px;
+    background-color: rgb(49, 205, 150);
+    border-bottom: 1px solid rgb(174, 250, 244);
 }
 
 #main-nav a{
     text-decoration: none;
-    padding: 5px;
-    background-color: rgb(49, 205, 182);
-    border-bottom: 1px solid rgb(9, 136, 68);
 }
 
 /* Typography */
@@ -26,4 +26,11 @@ body{
 
 #main-header h1 {
     text-align: center;
+}
+
+/* Larger Resolutions */
+@media (min-width: 900px) {
+  #main-nav ul{
+    display: flex;
+  }
 }
