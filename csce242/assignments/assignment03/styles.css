@@ -17,6 +17,7 @@
 
 #main-nav a{
     text-decoration: none;
+    color:rgb(5, 65, 44);
 }
 
 /* Typography */
@@ -32,5 +33,9 @@ body{
 @media (min-width: 900px) {
   #main-nav ul{
     display: flex;
+  }
+
+  #main-nav li {
+    flex: 1;
   }
 }
