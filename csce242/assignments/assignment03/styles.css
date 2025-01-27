@@ -17,7 +17,6 @@ body{
 
 .box1 {
     background-color: rgb(49, 205, 150);
-    flex-direction: row-reverse;
     gap: 20px;
     text-indent: 1%;
     border-bottom: 20px solid rgb(248, 224, 193);
@@ -92,23 +91,48 @@ body{
   }
 }
 
-.footer {
+
+/* FOOTER AHHH */
+
+.footer-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+    background-color: #e78d8d;
+  }
+
+  .footer-flex2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin: 20px;
     background-color: #e78d8d;
   }
+  .flex-item {
+    padding: 20px;
+    background-color: #248c10;
+  }
+
+  .flex-item1 {
+    padding: 20px;
+    background-color: #c41010;
+  }
   
-  .footer-item {
+  .flex-item2 {
     padding: 20px;
     background-color: #6b9199;
   }
-  
-  .placeholder.thin {
-    width: 200px;
-    height: 50px;
+
+  .flex-item3 {
+    padding: 20px;
+    background-color: #deebee;
   }
+  
+  .title-box1-0 {
+    flex-wrap: 20%;
+  }
+
   
   /* Footer */
   .footer {
