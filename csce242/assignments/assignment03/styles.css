@@ -1,40 +1,51 @@
 body{
     background-color:rgb(248, 224, 193);
 }
-#idea1, #idea2, #idea3 {
-    background-color:rgb(60, 255, 216);
+#main-content {
     min-height: 220 px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-bottom: 20px solid rgb(248, 224, 193);
+}
+
+.box2 {
+    background-color: rgb(1, 114, 185);
+    gap: 10px;
+    border-bottom: 20px solid rgb(248, 224, 193);
+
 }
 
 .box1 {
     background-color: rgb(49, 205, 150);
-    gap: 20px;
-}
-
-.box2 {
-    background-color: rgb(255, 153, 153);
     flex-direction: row-reverse;
     gap: 20px;
+    text-indent: 1%;
+    border-bottom: 20px solid rgb(248, 224, 193);
 }
 
 .box3 {
     background-color: rgb(49, 205, 150);
     gap: 20px;
+    border-bottom: 20px solid rgb(248, 224, 193);
 }
 
 
-.flex-container img {
+.box1 img, .box3 img {
     width: 200px;
     height: 200px;
-    border-radius: 5px;
+    border: 10px solid rgb(49, 205, 150);
+}
+
+.box2 img {
+  width: 200px;
+  height: 200px;
+  border: 10px solid rgb(1, 114, 185);
 }
 
 .flex-container .text {
     flex: 1;
     text-align: left;
+    text-indent: 2%;
 }
 
 #main-nav ul{
@@ -71,7 +82,12 @@ body{
     display: flex;
   }
 
-  #main-nav li, .idea1, .idea2, .idea3{
+  #main-content{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  #main-nav li, .text{
     flex: 1;
   }
 }
