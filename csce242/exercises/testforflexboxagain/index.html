@@ -1,63 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Name: Erin Blaskowski - Class: CSCE 242 -->
-    <head>
-        <title>Learning Flexbox</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header id="main-header">
-            <h1>Layout with Flex</h1>
-            <nav id="main-nav">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Flex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Layout with Flex</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Staff</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="big-ideas">
+            <h2>Big Ideas!</h2>
+
+            <article class="idea">
+                <h3>Idea 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <img src="https://betterplaceholder.com/200x200" alt="200x200">
+            </article>
+
+            <article class="idea highlight">
+                <img src="https://betterplaceholder.com/200x200" alt="200x200">
+                <h3>Idea 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </article>
+
+            <article class="idea">
+                <h3>Idea 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <img src="https://betterplaceholder.com/200x200" alt="200x200">
+            </article>
+        </section>
+
+        <section class="content">
+            <aside class="links">
+                <h3>Links</h3>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Store</a></li>
-                    <li><a href="#">Staff</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 4</a></li>
                 </ul>
-            </nav>
-        </header>
+            </aside>
 
-        <h2>Big Ideas!</h2>
-
-        <main id="main-content">
-            <!-- Box 1 -->
-            <div class="flex-container box1">
-                <img src="https://fakeimg.pl/200x200/8dc7ba/387567" alt="200x200">
-                <div class="text">
-                    <h3>Idea 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <section class="articles">
+                <div class="row">
+                    <article>
+                        <h3>Title 1</h3>
+                        <img src="https://betterplaceholder.com/200x100" alt="200x100">
+                        <p>Lorem ipsum dolor sit amet...</p>
+                    </article>
+                    <article>
+                        <h3>Title 2</h3>
+                        <img src="https://betterplaceholder.com/200x100" alt="200x100">
+                        <p>Lorem ipsum dolor sit amet...</p>
+                    </article>
                 </div>
-            </div>
 
-            <!-- Box 2 -->
-            <div class="flex-container box2">
-                <img src="https://fakeimg.pl/200x200/ff9999/cc4444" alt="200x200">
-                <div class="text">
-                    <h3>Idea 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <div class="row">
+                    <article>
+                        <h3>Title 3</h3>
+                        <img src="https://betterplaceholder.com/200x100" alt="200x100">
+                        <p>Lorem ipsum dolor sit amet...</p>
+                    </article>
+                    <article>
+                        <h3>Title 4</h3>
+                        <img src="https://betterplaceholder.com/200x100" alt="200x100">
+                        <p>Lorem ipsum dolor sit amet...</p>
+                    </article>
                 </div>
-            </div>
+            </section>
+        </section>
+    </main>
 
-            <!-- Box 3 -->
-            <div class="flex-container box3">
-                <div class="text">
-                    <h3>Idea 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                </div>
-                <img src="https://fakeimg.pl/200x200/8dc7ba/387567" alt="200x200">
-            </div>
-        </main>
-
-        <footer id="main-footer">
-            <ul>
-                <li>Title 1</li>
-                <li>Title 2</li>
-                <li>Links</li>
-                <li>Title 3</li>
-            </ul>
-        </footer>
-    </body>
+    <footer>
+        <p>@portiaplante.com</p>
+    </footer>
+</body>
 </html>
