@@ -18,7 +18,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #E08585;
     padding: 10px 0;
 }
@@ -59,6 +59,11 @@ main {
     margin-bottom: 15px;
 }
 
+.idea .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
 .idea img {
     width: 200px;
     height: 200px;
@@ -66,6 +71,7 @@ main {
 
 .highlight {
     background-color: #E08585;
+    flex-direction: row-reverse;
 }
 
 /* Content Section */
