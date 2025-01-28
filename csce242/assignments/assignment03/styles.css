@@ -8,6 +8,10 @@ body{
     border-bottom: 20px solid rgb(248, 224, 193);
 }
 
+h2{
+  margin-left:100px;
+}
+
 .box2 {
     background-color: rgb(1, 114, 185);
     gap: 10px;
@@ -89,8 +93,13 @@ body{
   #main-nav li, .text, .footer-flex, .footer-flex2{
     flex: 1;
   }
-}
 
+  @media (max-width: 900px){
+    .flex-container img{
+        align: center;
+    }
+  }
+}
 
 /* FOOTER AHHH */
 .footer-flex {
@@ -103,11 +112,12 @@ body{
 
   .item-links{
     background-color:aqua;
-    /*
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:right; */
     flex: 15%; 
+  }
+
+  .item-links a{
+    margin: 10px;
+    text-decoration: none;
   }
 
   .footer-flex2 {
@@ -120,29 +130,70 @@ body{
   .flex-item {
     padding: 20px;
     background-color: #248c10;
-
+    flex-wrap:wrap;
+    flex:15%;
   }
 
   .flex-item1 {
     padding: 20px;
     background-color: #c41010;
+    flex-wrap:wrap;
+    flex:10%;
   }
   
   .flex-item2 {
     padding: 20px;
     background-color: #6b9199;
-    flex: 1;
+    flex-wrap:wrap;
+    flex:10%;
   }
 
   .flex-item3 {
     padding: 20px;
     background-color: #deebee;
-    flex: 1;
+    flex-wrap:wrap;
+    flex:10%;
   }
-  
+
+  /*
   .title-box1-0 {
+    flex: 10%;
+  }
+  .title-box2-0 {
+    flex: 10%;
+  }
+
+  .title-box3-0 {
+    flex: 10%;
+  }
+
+  .title-box4-0 {
+    flex: 10%;
+  }
+
+  .title-box1 {
+    flex: 10%;
+  }
+
+  .title-box2 {
+    flex: 10%;
+  }
+
+  .title-box3 {
     flex: 20%;
   }
+
+  .title-box4 {
+    flex: 20%;
+  }
+
+  .title-box5 {
+    flex: 20%;
+  }
+
+  .title-box6 {
+    flex: 20%;
+  }*/
 
   /* Footer */
   .footer {
