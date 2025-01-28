@@ -98,7 +98,7 @@ body{
     display: flex;
     flex-wrap:wrap;
     justify-content:left;
-    flex: 25%;
+    flex: 30%;
   }
 
   .item-links{
@@ -120,7 +120,7 @@ body{
   .flex-item {
     padding: 20px;
     background-color: #248c10;
-    
+
   }
 
   .flex-item1 {
