@@ -94,23 +94,30 @@ body{
 
 /* FOOTER AHHH */
 .footer-flex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     background-color: #e78d8d;
     display: flex;
     flex-wrap:wrap;
     justify-content:left;
+    flex: 2;
+  }
+  .item-links{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:right;
+    flex: 1;
   }
 
   .footer-flex2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     background-color: #e78d8d;
     display: flex;
+    flex-wrap:wrap;
+    justify-content:right;
+    flex: 3;
   }
   .flex-item {
     padding: 20px;
     background-color: #248c10;
+    flex: 2;
   }
 
   .flex-item1 {
