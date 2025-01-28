@@ -1,7 +1,9 @@
+/* welcome to my first flexbox styles.css */
 body{
     background-color:rgb(248, 224, 193);
     border: 1px solid rgb(255, 156, 7);
 }
+
 #main-content {
     min-height: 250 px;
     margin-left: 75px;
@@ -17,8 +19,11 @@ h2{
   text-indent: 0.5%;
 }
 
-.box2 p, .box3 h3{
-  margin:0;
+.box3 h3{
+  margin-top:0;
+}
+.box2 p{
+  margin-bottom:0;
 }
 
 .box1 {
@@ -87,6 +92,7 @@ body{
     color:rgb(5, 65, 44);
 }
 
+/* high resolution only right here */
 @media only screen and (min-width: 768px) {
   #main-nav ul, .flex-container, .footer-flexbox{
     display: flex;
@@ -139,7 +145,7 @@ body{
   }
 
   .item-links h3, .item-links a{
-  
+
     margin-top:0
   }
 
