@@ -93,25 +93,18 @@ body{
 
 
 /* FOOTER AHHH */
-
-.footer-flexbox{
-  display: flex;
-}
-
 .footer-flex {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin: 20px;
     background-color: #e78d8d;
     display: flex;
+    flex-wrap:wrap;
+    justify-content:left;
   }
 
   .footer-flex2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin: 20px;
     background-color: #e78d8d;
     display: flex;
   }
@@ -136,10 +129,9 @@ body{
   }
   
   .title-box1-0 {
-    flex-wrap: 20%;
+    flex: 20%;
   }
 
-  
   /* Footer */
   .footer {
     text-align: center;
