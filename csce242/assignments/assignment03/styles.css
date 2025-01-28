@@ -3,27 +3,36 @@ body{
     border: 1px solid rgb(255, 156, 7);
 }
 #main-content {
-    min-height: 220 px;
-    margin-left: 10px;
-    margin-right: 20px;
+    min-height: 250 px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
-/* fix margin for h2 */
 h2{
-  margin-left: 2%;
+  margin-left: 15%;
 }
 
 .box2 {
-    background-color: rgb(1, 114, 185);
+  background-color: rgb(1, 114, 185);
+  text-indent: 0.5%;
+}
+
+.box2 p, .box3 h3{
+  margin:0;
 }
 
 .box1 {
-    background-color: rgb(49, 205, 150);
-    text-indent: 0.5%;
+  background-color: rgb(49, 205, 150);
+  text-indent: 0.5%;
 }
 
 .box3 {
-    background-color: rgb(49, 205, 150);
+  background-color: rgb(49, 205, 150);
+  text-indent: 0.5%;
+}
+
+.text{
+  margin-left:2%;
 }
 
 .box1 img, .box3 img {
@@ -41,7 +50,7 @@ h2{
   border: 10px solid rgb(1, 114, 185);
   display: block;
   margin-right:auto; 
-  margin-left:auto; 
+  margin-left:auto;
 }
 
 .flex-container .text {
@@ -66,7 +75,6 @@ h2{
 #main-nav a{
     text-decoration: none;
     color:rgb(5, 65, 44);
-    margin: 5px;
 }
 
 body{
@@ -105,6 +113,12 @@ body{
   h2{
     margin-left: 7%;
   }
+
+  .flex-item, .flex-item1, .flex-item2, .flex-item3{
+    display:flex;
+    justify-content:space-between;
+    flex:5%;
+  }
 }
 
 /* FOOTER AHHH */
@@ -118,12 +132,19 @@ body{
   }
 
   .item-links{
-    background-color:aqua;
+    background-color:#6b9199;
     flex: 1; 
+    text-indent: 10%;
+    min-height: 200px;
+  }
+
+  .item-links h3, .item-links a{
+  
+    margin-top:0
   }
 
   .item-links a{
-    margin: 10px;
+    margin-left: 10px;
     text-decoration: none;
   }
 
@@ -135,41 +156,26 @@ body{
     flex: 3;
   }
 
-  .flex-item {
-    padding: 20px;
+  .flex-item, .flex-item1 {
+    padding: 10px;
     text-align:center;
-    background-color: #248c10;
-    justify-content:space-between;
-    flex:20%;
-  }
-
-  .flex-item1 {
-    padding: 20px;
-    text-align:center;
-    background-color: #c41010;
-    justify-content:space-between;
-    flex:20%;
+    background-color: #94f5ed;
   }
   
   .flex-item2 {
-    padding: 20px;
+    padding: 10px;
     text-align:center;
-    background-color: #6b9199;
-    justify-content:space-between;
-    flex:30%;
+    background-color: #94f5ed;
   }
 
   .flex-item3 {
-    padding: 20px;
+    padding: 10px;
     text-align:center;
-    background-color: #deebee;
-    justify-content:space-between;
-    flex:30%;
+    background-color: #94f5ed;
   }
 
   .footer {
     text-align: center;
     padding: 10px;
-    background-color: #6b9199;
-    color: white;
+    color: #6b9199;
   }
