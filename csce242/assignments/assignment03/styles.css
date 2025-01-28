@@ -8,8 +8,9 @@ body{
     border-bottom: 20px solid rgb(248, 224, 193);
 }
 
+/* fix margin for h2 */
 h2{
-  margin-left:100px;
+  margin: auto;
 }
 
 .box2 {
@@ -37,12 +38,16 @@ h2{
     width: 200px;
     height: 200px;
     border: 10px solid rgb(49, 205, 150);
+    display: block;
+    margin:auto; 
 }
 
 .box2 img {
   width: 200px;
   height: 200px;
   border: 10px solid rgb(1, 114, 185);
+  display: block;
+  margin:auto; 
 }
 
 .flex-container .text {
@@ -94,13 +99,6 @@ body{
     flex: 1;
   }
 
-  @media (max-width: 900px){
-    .flex-container img{
-        align: center;
-    }
-  }
-}
-
 /* FOOTER AHHH */
 .footer-flex {
     background-color: #e78d8d;
@@ -127,25 +125,29 @@ body{
     justify-content:right;
     flex: 50%;
   }
+  
   .flex-item {
     padding: 20px;
     background-color: #248c10;
     flex-wrap:wrap;
-    flex:15%;
+    width:41%;
+    justify-content:space-around;
   }
 
   .flex-item1 {
     padding: 20px;
     background-color: #c41010;
     flex-wrap:wrap;
-    flex:10%;
+    width:41%;
+    justify-content:space-around;
   }
   
   .flex-item2 {
     padding: 20px;
     background-color: #6b9199;
     flex-wrap:wrap;
-    flex:10%;
+    width:27.85%;
+    justify-content:space-around;
   }
 
   .flex-item3 {
@@ -155,47 +157,6 @@ body{
     flex:10%;
   }
 
-  /*
-  .title-box1-0 {
-    flex: 10%;
-  }
-  .title-box2-0 {
-    flex: 10%;
-  }
-
-  .title-box3-0 {
-    flex: 10%;
-  }
-
-  .title-box4-0 {
-    flex: 10%;
-  }
-
-  .title-box1 {
-    flex: 10%;
-  }
-
-  .title-box2 {
-    flex: 10%;
-  }
-
-  .title-box3 {
-    flex: 20%;
-  }
-
-  .title-box4 {
-    flex: 20%;
-  }
-
-  .title-box5 {
-    flex: 20%;
-  }
-
-  .title-box6 {
-    flex: 20%;
-  }*/
-
-  /* Footer */
   .footer {
     text-align: center;
     padding: 10px;
