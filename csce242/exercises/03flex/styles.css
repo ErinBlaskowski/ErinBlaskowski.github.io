@@ -7,14 +7,18 @@ body {
 #content {
     background:white;
     width:70%;
-    margin:auto; /* center */
-    border-radius:5px;
+    margin: 20%;
+    border-radius: 10px;
     box-shadow: 10px 10px lightblue;
 }
 
 header, footer {
     background:#2B91AD;
     color:white;
+}
+
+h2{
+    margin:10%;
 }
 
 main {
