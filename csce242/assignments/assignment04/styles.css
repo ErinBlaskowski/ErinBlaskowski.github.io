@@ -1,7 +1,14 @@
+/* Section 1 */
+
 .section-1{
     background-color:#000;
-    color:white;
+    color:rgb(255, 255, 255);
     width:100%;
+    position: absolute;
+    border:20px solid black;
+    margin-top:0%;
+    margin-left:0;
+    font-family:'Berlingske Sans';
 }
 
 .section-1 ul{
@@ -10,11 +17,16 @@
     border-radius: 2px;
     text-align: center;
     list-style-type: none;
+    font-size:12px;
+
+    li{
+        flex: 1;
+        text-align:center;
+    }
+
     a{
         color:white;
         text-decoration:none;
-        flex: 1;
-        text-align:center;
     }
 }
 
@@ -24,4 +36,40 @@
 
 .flex-box{
     display:flex;
+}
+
+
+/* Section 2 */
+
+/* temp code for middle section */
+.section-2{
+    min-height: 1000px;
+}
+
+
+
+/* Section 3 */
+
+.section-3{
+    background-color:#570008;
+    color:white;
+}
+
+.section-3 ul{
+    border-radius: 2px;
+    list-style-type: none;
+    font-size:12px;
+
+    li{
+        text-align:center;
+    }
+
+    a{
+        color:white;
+        text-decoration:none;
+    }
+}
+
+.section-3 div{
+    display:block;
 }
