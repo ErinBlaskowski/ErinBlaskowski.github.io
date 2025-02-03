@@ -53,7 +53,6 @@ header{
 
 #banner-menu ul li{
     position: relative;
-    display: inline;
     padding-right: 10px;
 }
 
@@ -62,12 +61,12 @@ header{
     color:#fff;
 }
 
+
 #logo a{
     text-indent: 1000%;
     margin-top:20px;
     white-space: nowrap;
     overflow: hidden;
-    width: 250px;
     height: 53px;
     display: inline-block;
     background: url(images/USCIMAGERED.svg) no-repeat;
@@ -78,8 +77,8 @@ header{
 /* Section 2 */
 
 .branding{
-    width:100%;
     background-color:#73000a;
+    width:100%;
 }
 
 .branding h1 {
@@ -92,6 +91,7 @@ header{
     padding: .15em 0;
     list-style-type: none;
     text-indent:2%;
+    width:100%;
     a{
         color:#fff;
         text-decoration:none;
@@ -168,7 +168,7 @@ header{
 #vertical_nav ul {
     list-style: none;
     list-style-image: none;
-    margin: 0;
+    margin-right: 0;
     padding: 0;
     display: block;
     margin-block-start: 1em;
@@ -195,7 +195,7 @@ header{
     unicode-bidi: isolate;
     margin: 0 15px 0 15px;
     float: left;
-    width:100%;
+    width:80%;
     display: block;
 }
 
@@ -233,6 +233,7 @@ header{
     display: flex;
     flex-wrap:wrap;
     bottom:0 0% auto;
+    width:100%;
 }
 
 .section-3 ul{
@@ -267,6 +268,10 @@ header{
     background-color: #843d12;
 }
 
+#logo{
+    width:100%;
+}
+
 #logo b{
     text-indent: 1000%;
     margin-top:20px;
@@ -284,7 +289,7 @@ header{
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
-    #main-nav ul, .flex-box, .section-3, #banner-menu, .mid-flex{
+    #main-nav ul, .flex-box, .section-3, #banner-menu, .mid-flex, .grid{
       display: flex;
     }
   
