@@ -38,13 +38,11 @@ header{
 }
 
 #banner-menu{
-    display:flex;
     position: absolute;
     top:0;
     right:0;
     text-wrap:nowrap;
     margin-top:10px;
-    
 }
 
 #banner-menu ul{
@@ -150,6 +148,80 @@ header{
     list-style: none;
 }
 
+#vertical_nav {
+    font-weight: 800;
+    font-size: 1.125em;
+    width: 28%;
+}
+
+#vertical_nav ul li{
+    border-bottom: 1px solid #C7C7C7;
+    margin-bottom: 2%;
+    line-height: 1.4em;
+}
+
+#vertical_nav ul a{
+    text-decoration:none;
+    color:black;
+}
+
+#vertical_nav ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.grid p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    margin: -5px 0 15px;
+    border-bottom: 1px solid #C7C7C7;
+    padding-bottom: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.grid {
+    unicode-bidi: isolate;
+    margin: 0 15px 0 15px;
+    float: left;
+    width:100%;
+    display: block;
+}
+
+
+.grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s;
+}
+
+.mid-flex {
+    flex: 2;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin: 0 -15px 0 -15px;
+    display: inline-block;
+  }
+
+  .flex-item, .flex-item1 {
+    padding: 10px;
+  }
+
+  .grid{
+    float:right;
+  }
 
 /* Section 3 */
 
@@ -160,6 +232,7 @@ header{
     justify-content:space-between;
     display: flex;
     flex-wrap:wrap;
+    bottom:0 0% auto;
 }
 
 .section-3 ul{
@@ -180,10 +253,6 @@ header{
 .uni-header{
     text-indent:15%;
     margin-left:5%;
-}
-
-#uni-of{
-    text-wrap: nowrap;
 }
 
 .div1{
@@ -209,13 +278,13 @@ header{
     background: url(images/usc_logo_horizontal_rgb_k_rev.svg) no-repeat;
     color: #73000a;
     text-decoration: none;
-    margin-left:15%;
 }
+
 
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
-    #main-nav ul, .flex-box, .section-3{
+    #main-nav ul, .flex-box, .section-3, #banner-menu, .mid-flex{
       display: flex;
     }
   
@@ -228,4 +297,10 @@ header{
       justify-content:space-between;
       flex:5%;
     }
+
+    .flex-item, .flex-item1{
+        display:flex;
+        justify-content:space-between;
+        flex:26%;
+      }
   }
