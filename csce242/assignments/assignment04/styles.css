@@ -63,7 +63,6 @@ header{
 
 
 #logo a{
-    text-indent: 1000%;
     margin-top:20px;
     white-space: nowrap;
     overflow: hidden;
@@ -89,7 +88,7 @@ header{
     margin: 0;
     padding: .15em 0;
     list-style-type: none;
-    text-indent:2%;
+    text-indent:12%;
     width:100%;
     a{
         color:#fff;
@@ -150,12 +149,16 @@ header{
 #vertical_nav {
     font-weight: 800;
     font-size: 1.125em;
-    width: 28%;
+    min-width:170px;
+    max-width:170px;
+    margin-right:2%;
+    border-width:1%;
 }
 
 #vertical_nav ul li{
     border-bottom: 1px solid #C7C7C7;
     margin-bottom: 2%;
+    margin-left:-100%;
     line-height: 1.4em;
 }
 
@@ -172,8 +175,14 @@ header{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    padding-inline-start: 40px;
+    padding-inline-start: 2px;
     unicode-bidi: isolate;
+}
+
+#my-arts{
+    font-size:14px;
+    float:right;
+    margin-right:2%;
 }
 
 .grid p {
@@ -212,14 +221,20 @@ header{
     flex-wrap:wrap;
     margin: 0 -15px 0 -15px;
     display: inline-block;
+    color:#73000a;
+  }
+
+  .mid-flex p{
+    color:#000;
   }
 
   .flex-item, .flex-item1 {
-    padding: 10px;
+    padding: 30px;
   }
 
   .grid{
     float:right;
+    padding: 30px;
   }
 
 /* Section 3 */
@@ -295,11 +310,11 @@ header{
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
-    #main-nav ul, .flex-box, .section-3, #banner-menu, .mid-flex, .grid{
+    #main-nav ul, .section-3, #banner-menu, .mid-flex, .grid, .flex, .column{
       display: flex;
     }
   
-    #main-nav li, .text, .office-divisions, .tools{
+    #main-nav li, .text, .office-divisions, .tools, .flex-box, .flex{
       flex: 1;
     }
   
@@ -314,4 +329,10 @@ header{
         justify-content:space-between;
         flex:26%;
       }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #vertical_nav{
+        display:none;
+    }
   }
