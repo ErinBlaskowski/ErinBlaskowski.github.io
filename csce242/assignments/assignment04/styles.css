@@ -14,7 +14,6 @@ header{
 }
 
 .row{
-    width:1170px;
     margin: 0 auto;
 }
 
@@ -371,10 +370,9 @@ header{
     background: url(images/usc_logo_horizontal_rgb_k_rev.svg) no-repeat;
     color: #73000a;
     text-decoration: none;
-    margin-left:15%;
+    margin-left: 70%;
 }
 
-/* What is happening here? */
 #banner-menu2{
     text-wrap:nowrap;
     width:100%;
@@ -392,9 +390,9 @@ header{
     position: relative;
     margin:0;
     padding:0;
+    text-align:center;
 }
 
-/* Why is this just teleporting to the top of the screen??? */
 #banner-menu2 ul li a{
     text-decoration:none;
     color:#ffffff;
