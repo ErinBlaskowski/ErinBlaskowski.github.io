@@ -377,14 +377,13 @@ header{
     margin-top:10px;
     width:100%;
     background-color:#000;
-
+    float:left;
 }
 
 #banner-menu2 ul{
     margin: 0;
     border-radius: 2px;
     list-style-type: none;
-    float:left;
 }
 
 #banner-menu2 ul li{
@@ -396,6 +395,37 @@ header{
 #banner-menu2 ul li a{
     text-decoration:none;
     color:#ff00c8;
+}
+
+.branding2{
+    background-color:#bfbfbf;
+    width:100%;
+}
+
+.branding2 b{
+        list-style-type: none;
+        text-decoration:none;
+        list-style: none; 
+        color:black;
+        position:relative;
+}
+
+.branding2 h1 {
+    position: relative;
+    z-index: 10;
+    font-family: 'Berlingske Serif', 'Georgia', serif;
+    font-weight: 700;
+    font-size: 1.6em;
+    margin: 0;
+    padding: .15em 0;
+    list-style-type: none;
+    text-indent:12%;
+    width:100%;
+    a{
+        color:#000000;
+        text-decoration:none;
+        list-style: none;   
+    }
 }
 
 
@@ -414,7 +444,7 @@ header{
     .div1, .div2, .div3, .cs-div1, .cs-div2, .cs-div3{
       display:flex;
       justify-content:space-between;
-      flex:30%;
+      flex:25%;
     }
 
     .flex-item, .flex-item1{
