@@ -353,6 +353,33 @@ header{
     margin-left:15%;
 }
 
+/* What is happening here? */
+#banner-menu2{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    text-wrap:nowrap;
+    margin-top:10px;
+}
+
+#banner-menu2 ul{
+    margin: 0;
+    border-radius: 2px;
+    list-style-type: none;
+}
+
+#banner-menu2 ul li{
+    position: relative;
+    padding-right: 10px;
+}
+
+/* Why is this just teleporting to the top of the screen??? */
+#banner-menu2 ul li a{
+    text-decoration:none;
+    color:#ff00c8;
+}
+
 
 
 /* Media Queries */
