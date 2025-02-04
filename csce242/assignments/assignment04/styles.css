@@ -270,22 +270,35 @@ header{
     margin-left:5%;
 }
 
+.colleges-schools h2{
+    text-align:center;
+}
+
+.cs-div1, .cs-div2, .cs-div3{
+    float:left;
+    text-align:center;
+    margin-left:30%;
+}
+
 .div1{
     padding: 10px;
+    float:left;
     text-align:center;
     background-color: #f09515;
 }
 
 .div2{
     padding: 10px;
+    float:left;
     text-align:center;
     background-color: #843d12;
 }
 
 .div3{
     padding: 10px;
+    float:left;
     text-align:center;
-    background-color: #843d12;
+    background-color: #d29f2a;
 }
 
 #logo{
@@ -307,14 +320,15 @@ header{
 }
 
 
+
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
-    #main-nav ul, .section-3, #banner-menu, .mid-flex, .grid, .flex, .column{
+    #main-nav ul, .section-3, #banner-menu, .mid-flex, .grid, .flex, .column, .all-footer{
       display: flex;
     }
   
-    #main-nav li, .text, .office-divisions, .tools, .flex-box, .flex{
+    #main-nav li, .text, .office-divisions, .tools, .flex-box, .flex, .colleges-schools{
       flex: 1;
     }
   
