@@ -13,6 +13,12 @@ header{
     position:relative;
 }
 
+a{
+    text-decoration:none;
+    list-style: none;
+    list-style-type: none;
+}
+
 .row{
     margin: 0 auto;
 }
@@ -26,12 +32,13 @@ header{
 }
 
 #main-nav{
-    width:1110px;
+    width:auto;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     margin: 0 15px;
+    margin-right:5%;
     background-color:#000;
     position:relative;
 }
@@ -106,9 +113,9 @@ header{
 }
 
 #sports-img{
-    width:100%;
+    width:94%;
+    margin: 20px 20px 20px 20px;
 }
-
 
 .small-box h1 {
     font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
@@ -118,7 +125,10 @@ header{
     letter-spacing: .8px;
     line-height: 1;
     padding-top: 4%;
-    list-style: none;
+    color:#73000a;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .small-box{
@@ -133,15 +143,25 @@ header{
     text-indent:2%;
 }
 
-.small-box h1{
+.small-box-mobile h1 {
+    font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2.25em;
+    letter-spacing: .8px;
+    line-height: 1;
+    padding-top:4%;
     color:#73000a;
     display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
-.small-box a{
-    text-decoration:none;
+.small-box-mobile{
+    background-color: #ececec;
+    border-left: 5px solid #73000a;
+    width: 100%;
+    position: relative;
+    color: #000;
+    margin-top:0;
 }
 
 .flex{
@@ -257,6 +277,7 @@ header{
     margin-left:5%;
     list-style: none;
     text-decoration:none;
+    color:#73000a;
   }
 
   .box1 p, .box2 p {
@@ -309,50 +330,50 @@ header{
     margin-left:5%;
 }
 
-.colleges-schools h2{
-    text-align:center;
+.all-footer{
+    margin-left:8%;
+}
+
+.colleges-schools h2, .office-divisions h2, .tools h2{
+    text-align:left;
+    margin-left:15%;
+    border-bottom: 1px solid white;
 }
 
 .cs-div1 {
-    padding: 10px;
+    padding-right: 5px;
     float:left;
-    text-align:center;
-    background-color: #969fff;
+    text-align:left;
 }
 
 .cs-div2{
-    padding: 10px;
+    padding: 5px;
     float:left;
-    text-align:center;
-    background-color: #969fff;
+    text-align:left;
 }
 
 .cs-div3{
-    padding: 10px;
+    padding: 5px;
     float:left;
-    text-align:center;
-    background-color: #969fff;
+    text-align:left;
 }
 
 .div1{
-    padding: 10px;
+    padding: 5px;
     float:left;
-    text-align:center;
-    background-color: #f09515;
+    text-align:left;
 }
 
 .div2{
-    padding: 10px;
+    padding: 5px;
     float:left;
-    text-align:center;
-    background-color: #843d12;
+    text-align:left;
 }
 
 .div3{
-    padding: 10px;
+    padding: 5px;
     float:left;
-    text-align:center;
-    background-color: #d29f2a;
+    text-align:left;
 }
 
 #logo{
@@ -378,26 +399,24 @@ header{
     width:100%;
     background-color:#000;
     float:left;
+    font-size:12px;
 }
 
 #banner-menu2 ul{
     margin: 0;
     list-style-type: none;
-    border-right: 1px solid white;
 }
 
 #banner-menu2 ul li{
     position: relative;
-    margin:0;
     padding:0;
     text-align:center;
+    border-right: 1px solid white;
 }
 
 #banner-menu2 ul li a{
     text-decoration:none;
     color:#ffffff;
-    margin:0;
-    padding:0;
 }
 
 .branding2{
@@ -411,6 +430,11 @@ header{
         list-style: none; 
         color:black;
         position:relative;
+        margin-right:2%;
+        margin-left:2%;
+        text-wrap:nowrap;
+        margin-top:auto;
+        margin-bottom:auto;
 }
 
 .branding2 h1 {
@@ -436,18 +460,18 @@ header{
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
-    #main-nav ul, .section-3, #banner-menu, #banner-menu2, .mid-flex, .grid, .flex, .column, .all-footer, .flex-container, .flex-section{
+    #main-nav ul, .section-3, #banner-menu, #banner-menu2 ul, .mid-flex, .grid, .flex, .column, .all-footer, .flex-container, .flex-section, .branding2{
       display: flex;
     }
   
-    #main-nav li, .text, .office-divisions, .tools, .flex-box, .flex, .colleges-schools{
+    #main-nav li, .text, .office-divisions, .tools, .flex-box, .flex, .colleges-schools, #banner-menu2 li{
       flex: 1;
     }
   
     .div1, .div2, .div3, .cs-div1, .cs-div2, .cs-div3{
       display:flex;
       justify-content:space-between;
-      flex:25%;
+      flex:20%;
     }
 
     .flex-item, .flex-item1{
@@ -455,10 +479,22 @@ header{
         justify-content:space-between;
         flex:25%;
       }
+
+      .small-box-mobile h1, .small-box-mobile p{
+        display:none;
+      }
   }
 
   @media only screen and (max-width: 768px) {
     #vertical_nav, .news{
         display:none;
+    }
+
+    .small-box h1, .small-box p{
+        display:none;
+    }
+
+    #banner-menu{
+        font-size:5px;
     }
   }
