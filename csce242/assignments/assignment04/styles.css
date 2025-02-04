@@ -106,6 +106,10 @@ header{
     unicode-bidi: isolate;
 }
 
+#sports-img{
+    width:100%;
+}
+
 
 .small-box h1 {
     font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
@@ -244,18 +248,20 @@ header{
   }
 
   .box1, .box2 {
-    background-color: rgb(255, 119, 0);
     margin-top:2%;
+    width:100%;
+    border-bottom: 1px solid rgb(192, 192, 192);
   }
 
   .box1 h2,.box2 h2 {
-    font-size:19px;
+    font-size:22px;
     margin-left:5%;
-    text-wrap:nowrap;
+    list-style: none;
+    text-decoration:none;
   }
 
   .box1 p, .box2 p {
-    font-size: 12px;
+    font-size: 16px;
     margin-left:5%;
     border:0;
   }
@@ -370,11 +376,7 @@ header{
 
 /* What is happening here? */
 #banner-menu2{
-    position:absolute;
-    margin:0;
-    bottom:0;
     text-wrap:nowrap;
-    margin-top:10px;
     width:100%;
     background-color:#000;
     float:left;
@@ -382,19 +384,22 @@ header{
 
 #banner-menu2 ul{
     margin: 0;
-    border-radius: 2px;
     list-style-type: none;
+    border-right: 1px solid white;
 }
 
 #banner-menu2 ul li{
     position: relative;
-    padding-right: 10px;
+    margin:0;
+    padding:0;
 }
 
 /* Why is this just teleporting to the top of the screen??? */
 #banner-menu2 ul li a{
     text-decoration:none;
-    color:#ff00c8;
+    color:#ffffff;
+    margin:0;
+    padding:0;
 }
 
 .branding2{
