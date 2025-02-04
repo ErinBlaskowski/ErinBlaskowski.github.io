@@ -436,7 +436,7 @@ header{
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
-    #main-nav ul, .section-3, #banner-menu, #banner-menu2, .mid-flex, .grid, .flex, .column, .all-footer, .flex-container{
+    #main-nav ul, .section-3, #banner-menu, #banner-menu2, .mid-flex, .grid, .flex, .column, .all-footer, .flex-container, .flex-section{
       display: flex;
     }
   
