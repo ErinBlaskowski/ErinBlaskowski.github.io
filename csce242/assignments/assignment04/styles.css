@@ -308,10 +308,25 @@ header{
     text-align:center;
 }
 
-.cs-div1, .cs-div2, .cs-div3{
+.cs-div1 {
+    padding: 10px;
     float:left;
     text-align:center;
-    margin-left:30%;
+    background-color: #969fff;
+}
+
+.cs-div2{
+    padding: 10px;
+    float:left;
+    text-align:center;
+    background-color: #969fff;
+}
+
+.cs-div3{
+    padding: 10px;
+    float:left;
+    text-align:center;
+    background-color: #969fff;
 }
 
 .div1{
@@ -356,18 +371,20 @@ header{
 /* What is happening here? */
 #banner-menu2{
     position:absolute;
+    margin:0;
     bottom:0;
-    left:0;
     text-wrap:nowrap;
     margin-top:10px;
     width:100%;
     background-color:#000;
+
 }
 
 #banner-menu2 ul{
     margin: 0;
     border-radius: 2px;
     list-style-type: none;
+    float:left;
 }
 
 #banner-menu2 ul li{
@@ -386,7 +403,7 @@ header{
 /* Media Queries */
 
 @media only screen and (min-width: 768px) {
-    #main-nav ul, .section-3, #banner-menu, .mid-flex, .grid, .flex, .column, .all-footer, .flex-container{
+    #main-nav ul, .section-3, #banner-menu, #banner-menu2, .mid-flex, .grid, .flex, .column, .all-footer, .flex-container{
       display: flex;
     }
   
@@ -394,7 +411,7 @@ header{
       flex: 1;
     }
   
-    .div1, .div2, .div3{
+    .div1, .div2, .div3, .cs-div1, .cs-div2, .cs-div3{
       display:flex;
       justify-content:space-between;
       flex:30%;
