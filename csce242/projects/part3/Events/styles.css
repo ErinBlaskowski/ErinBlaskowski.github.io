@@ -78,7 +78,7 @@ a{
     color:var(--text-color);
 }
 
-#main-nav ul li #about{
+#main-nav ul li #events{
     color:var(--link-color);
     text-decoration:underline 3px;
 }
