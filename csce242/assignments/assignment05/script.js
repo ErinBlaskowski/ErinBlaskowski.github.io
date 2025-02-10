@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener("DOMContentLoaded", () => {
     const helloButton = document.getElementById("helloButton");
     const helloMessages = document.getElementById("helloMessages");
