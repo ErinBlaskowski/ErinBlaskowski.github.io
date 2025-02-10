@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     helloButton.addEventListener("click", sayHello);
 
+    /* Some of the color picker code below from W3Schools site */
+
     const colorPicker = document.getElementById("colorPicker");
     const icon = document.querySelector("#pickColor .icon");
 
@@ -18,10 +20,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const imageBox = document.getElementById("imageBox");
+    const imageContainer = document.querySelector(".image-container");
     
     imageBox.addEventListener("click", () => {
-        imageBox.src = "https://via.placeholder.com/150/004d40/FFFFFF?text=New+Image";
-        imageBox.style.width = "150px";
-        imageBox.style.height = "150px";
+        if (imageBox.style.width === "150px") {
+            imageBox.style.width = "200px";
+            imageBox.style.height = "200px";
+            imageContainer.style.width = "200px";
+            imageContainer.style.height = "200px";
+        } else {
+            imageBox.style.width = "150px";
+            imageBox.style.height = "150px";
+            imageContainer.style.width = "150px";
+            imageContainer.style.height = "150px";
+        }
     });
 });

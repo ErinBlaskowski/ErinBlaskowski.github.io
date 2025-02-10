@@ -1,8 +1,6 @@
 :root {
     --main-background-color: #f8f8eb;
     --box-background-color: #f9f6dd;
-    --button-background-color: #007BFF;
-    --button-text-color: white;
     --icon-color: black;
     --text-color: #2b4d5b;
     --subheading-color: #d57171;
@@ -56,11 +54,11 @@ h1 {
 }
 
 button {
-    padding: 10px;
+    padding: 5px;
     cursor: pointer;
-    border: none;
-    background-color: var(--button-background-color);
-    color: var(--button-text-color);
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: var(--text-color);
     border-radius: 5px;
     font-size: 14px;
 }
@@ -92,13 +90,15 @@ input[type="color"] {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    transition: all 0.3s ease-in-out;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     display: block;
+    transition: all 0.3s ease-in-out;
 } 
 
 .footer {
