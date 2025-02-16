@@ -1,0 +1,84 @@
+:root {
+    --background-color: #abf5ff;
+    --black-color: rgb(15, 58, 80);
+    --white-color: rgb(197, 228, 232);
+    --light-bg-color: #5fc3b4;
+    --text-color: rgb(13, 105, 93);
+    --heart-color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+header {
+    margin-top: 20px;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#menu {
+    display: none;
+}
+
+#menu span {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.exercise-box {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.black-bg {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+#transportInput{
+    margin-bottom: 30px;
+}
+
+.light-bg {
+    background-color: var(--light-bg-color);
+    color: var(--text-color);
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#heart {
+    font-size: 100px;
+    color: var(--heart-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+footer {
+    margin-top: 0px;
+}

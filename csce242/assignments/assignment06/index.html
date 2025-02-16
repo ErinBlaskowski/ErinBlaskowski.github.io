@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Assignment 8</h1>
+        <h2>If Statements</h2>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            &#9660;
+        </div>
+        <nav id="menu">
+            <span onclick="showExercise(1)">Exercise 1</span> |
+            <span onclick="showExercise(2)">Exercise 2</span>
+        </nav>
+    </header>
+    <main>
+        <section id="exercise1" class="hidden">
+            <div class="exercise-box black-bg">
+                <h3>Travelling</h3>
+                <p>Enter your mode of Transportation</p>
+                <input type="text" id="transportInput" oninput="updateTransportImage()">
+                <div id="transportImage"></div>
+            </div>
+        </section>
+        <section id="exercise2" class="hidden">
+            <div class="exercise-box light-bg">
+                <h3>Color My Heart</h3>
+                <button onclick="changeHeartColor('red')">Red</button>
+                <button onclick="changeHeartColor('green')">Green</button>
+                <button onclick="changeHeartColor('blue')">Blue</button>
+                <div id="heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@blaskowe.com</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/bd7cf3c62a.js" crossorigin="anonymous"></script>
+</body>
+</html>
