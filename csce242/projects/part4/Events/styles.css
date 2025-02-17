@@ -160,7 +160,7 @@ a{
     font-size:30px;
     text-align:center;
     margin-top:20px;
-    letter-spacing: 7px;
+    letter-spacing: 3px;
 }
 
 @media only screen and (min-width: 768px) {
