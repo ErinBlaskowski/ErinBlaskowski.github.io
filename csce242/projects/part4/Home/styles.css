@@ -200,3 +200,9 @@ a{
         flex:25%;
     }
 }
+
+@media only screen and (max-width: 768px){
+    #main-nav{
+        display:none;
+    }
+}
