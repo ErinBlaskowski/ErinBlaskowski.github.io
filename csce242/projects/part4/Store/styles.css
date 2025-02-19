@@ -1,10 +1,10 @@
 :root {
-    --main-background-color:#3bc0c7;
-    --primary-color:#41abec;
-    --gallery-color:#82e2ff;
-    --text-color:rgb(27, 53, 118);
-    --secondary-text-color:rgb(0, 55, 99);
-    --link-color:rgb(88, 51, 255);
+    --main-background-color:#d2fdff;
+    --primary-color:#96dbf6;
+    --gallery-color:#418195;
+    --text-color:rgb(0, 0, 0);
+    --secondary-text-color:rgb(49, 112, 163);
+    --link-color:rgb(62, 118, 183);
 }
 
 body{
