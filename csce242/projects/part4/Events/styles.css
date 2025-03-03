@@ -22,7 +22,7 @@ body{
 
 .header h2{
     margin-top:0;
-    padding-top:50px;
+    padding-top:10px;
     padding-bottom:0px;
     font-size:50px;
     margin-left:5%;
@@ -157,10 +157,10 @@ a{
 }
 
 .box1 p, .box2 p{
-    font-size:30px;
-    text-align:center;
+    font-size:20px;
     margin-top:20px;
     letter-spacing: 2px;
+    text-align:left;
 }
 
 @media only screen and (min-width: 768px) {
