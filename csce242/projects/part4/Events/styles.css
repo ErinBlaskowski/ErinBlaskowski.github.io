@@ -11,7 +11,7 @@ body{
     background-color:var(--main-background-color);
     text-decoration:none;
     margin:0;
-    font-family:'Times New Roman', Times, serif;
+    font-family:sans-serif;
 }
 
 .header{
@@ -160,7 +160,7 @@ a{
     font-size:30px;
     text-align:center;
     margin-top:20px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 @media only screen and (min-width: 768px) {
