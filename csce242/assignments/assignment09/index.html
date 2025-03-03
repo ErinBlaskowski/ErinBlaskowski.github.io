@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Selection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pizza Selection</h1>
+    <div class="pizza-container" id="pizza-container"></div>
+    
+    <div id="pizza-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <div class="modal-body">
+                <div class="modal-text">
+                    <h2 id="modal-title"></h2>
+                    <p><strong>Ingredients:</strong> <span id="modal-ingredients"></span></p>
+                    <p><strong>Sauce:</strong> <span id="modal-sauce"></span></p>
+                    <p><strong>Cheese:</strong> <span id="modal-cheese"></span></p>
+                    <p><strong>Price:</strong> $<span id="modal-price"></span></p>
+                </div>
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
