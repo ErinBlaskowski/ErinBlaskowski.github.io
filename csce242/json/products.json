@@ -1,0 +1,81 @@
+{
+    "id":1,
+    "product_name":"Standard Card Set",
+    "price":"$6.99",
+    "img_name":"images/BicycleCardSet.png",
+    "contains":"",
+    "description":""
+}
+
+{
+    "id":2,
+    "product_name":"Layered Chess Set",
+    "price":"$44.99",
+    "img_name":"images/FunkyChessSet.png",
+    "contains":"",
+    "description":""
+}
+
+{
+    "id":3,
+    "product_name":"Set of 8 Puzzles",
+    "price":"$25.99",
+    "img_name":"images/SetOfEightPuzzles.jpeg",
+    "contains":"",
+    "description":""
+}
+
+{
+    "id":4,
+    "product_name":"White Dice Set",
+    "price":"$13.99",
+    "img_name":"images/DiceSet.png",
+    "contains":"",
+    "description":""
+}
+
+{
+    "id":5,
+    "product_name":"Medieval Chess Set",
+    "price":"$49.99",
+    "img_name":"images/MedievalChessSet.png",
+    "contains":"",
+    "description":""
+}
+
+{
+    "id":6,
+    "product_name":"VR Headset",
+    "price":"$199.99",
+    "img_name":"images/VirtualHeadset.png",
+    "contains":"",
+    "description":""
+}
+
+{
+    "id":7,
+    "product_name":"Dominos",
+    "price":"$15.99",
+    "img_name":"images/Dominos.png",
+    "contains":"",
+    "description":""
+}
+
+{
+    "id":8,
+    "product_name":"Red Dice Set",
+    "price":"$13.99",
+    "img_name":"images/RedDiceSet.png",
+    "contains":"",
+    "description":""
+}
+
+{
+    "id":9,
+    "product_name":"Monopoly",
+    "price":"$24.99",
+    "img_name":"images/Monopoly.png",
+    "contains":"",
+    "description":""
+}
+
