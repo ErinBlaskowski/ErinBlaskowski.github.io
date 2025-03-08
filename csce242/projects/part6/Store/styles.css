@@ -113,17 +113,17 @@ a{
     text-align:center;
   }
 
-.column1, .column2, .column3{
+#column1, #column2, #column3{
     padding:50px;
     background-color:var(--gallery-color);
     border-radius:50px;
 }
 
-.column1{
+#column1{
     margin-right:20px;
 }
 
-.column2{
+#column2{
     margin-right:20px;
 }
 
