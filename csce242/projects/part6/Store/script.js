@@ -8,32 +8,26 @@ const getProducts = async () => {
     }
 };
 
-const showProducts = async() => {
+const showProducts = async () => {
     let products = await getProducts();
 
     let productSection = document.getElementById("grid");
 
-    products.forEach(product){
-        const element = array[index];
-        
-    }{
-        const element = array[index];
-        
-    }(product => {
+    products.forEach(product => {
         productSection.append(getProductItem(product));
     });
 };
 
 const getProductItem = product => {
-    let section = document.createElement("box");
+    const gridItem = document.createElement('div');
 
     let src = document.createElement(src);
-    src.innerText = img_name;
-    section.append(src);
+    src.innerText = product.img_name;
+    gridItem.append(src);
 
     let h3 = document.createElement(h3);
-    h3.innerText = name + " - " + price;
-    section.append(h3);
+    h3.innerText = product.name + " - " + product.price;
+    gridItem.append(h3);
 
     return section;
 }

@@ -102,7 +102,7 @@ a{
 }
 
 
-.grid {
+#grid {
     justify-content:space-between;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -154,7 +154,7 @@ a{
     #main-nav{
         display:none;
     }
-    .grid{
+    #grid{
         grid-template-columns: 1fr;
     }
 }

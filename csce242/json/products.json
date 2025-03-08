@@ -1,5 +1,4 @@
-{
-    "myProducts": [
+[
         {
             "id":1,
             "product_name":"Standard Card Set",
@@ -72,5 +71,4 @@
             "contains":"",
             "description":""
         }    
-    ]
-}
+]
