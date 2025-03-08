@@ -1,6 +1,5 @@
 const getProducts = async () => {
-    const url = "https://github.com/ErinBlaskowski/ErinBlaskowski.github.io/blob/12b1925ff15295e48a1de10b34552545a82c3f61/csce242/json/products.json";
-
+    const url = "https://raw.githubusercontent.com/ErinBlaskowski/ErinBlaskowski.github.io/12b1925ff15295e48a1de10b34552545a82c3f61/csce242/json/products.json"
     try{
         const response = await fetch(url);
         return await response.json();
@@ -9,12 +8,12 @@ const getProducts = async () => {
     }
 };
 
-const showProducts = () => {
-    let products = getProducts(); //wouldn't let me add "await" in front of getProducts()
+const showProducts = async() => {
+    let products = await getProducts();
 
-    let productSection = document.getElementById("column1");
+    let productSection = document.getElementById("grid");
 
-    for (let i = 0; i < array.length; i++) {
+    products.forEach(product){
         const element = array[index];
         
     }{

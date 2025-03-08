@@ -102,10 +102,10 @@ a{
 }
 
 
-.columns {
-    flex: 1;
+.grid {
     justify-content:space-between;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     flex-wrap:wrap;
     padding:20px;
     width:80%;
@@ -141,17 +141,20 @@ a{
 }
 
 @media only screen and (min-width: 768px) {
-    #main-nav ul, .columns{
+    #main-nav ul{
       display: flex;
     }
   
-    #main-nav li, .column1, .column2, .column3{
-      flex: 1;
+    #main-nav li{
+        flex:1;
     }
 }
 
 @media only screen and (max-width: 768px){
     #main-nav{
         display:none;
+    }
+    .grid{
+        grid-template-columns: 1fr;
     }
 }
