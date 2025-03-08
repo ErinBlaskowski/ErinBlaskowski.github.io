@@ -1,5 +1,5 @@
 const getProducts = async () => {
-    const url = "https://raw.githubusercontent.com/ErinBlaskowski/ErinBlaskowski.github.io/12b1925ff15295e48a1de10b34552545a82c3f61/csce242/json/products.json"
+    const url = "https://raw.githubusercontent.com/ErinBlaskowski/ErinBlaskowski.github.io/refs/heads/main/csce242/json/products.json"
     try{
         const response = await fetch(url);
         return await response.json();
@@ -20,16 +20,17 @@ const showProducts = async () => {
 
 const getProductItem = product => {
     const gridItem = document.createElement('div');
+    gridItem.setAttribute("id", "box");
 
-    let src = document.createElement(src);
-    src.innerText = product.img_name;
-    gridItem.append(src);
+    let img = document.createElement("img");
+    img.src = product.img_name;
+    gridItem.append(img);
 
-    let h3 = document.createElement(h3);
+    let h3 = document.createElement("h3");
     h3.innerText = product.name + " - " + product.price;
     gridItem.append(h3);
 
-    return section;
+    return gridItem;
 }
 
 window.onload = () => showProducts();
