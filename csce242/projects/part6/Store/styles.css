@@ -113,6 +113,10 @@ a{
     text-align:center;
   }
 
+  #grid img{
+    width:300px;
+  }
+
 #column1, #column2, #column3{
     padding:50px;
     background-color:var(--gallery-color);
