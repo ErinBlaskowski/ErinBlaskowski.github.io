@@ -3,7 +3,7 @@
             "id":1,
             "name":"Standard Card Set",
             "price":"$6.99",
-            "img_name":"images/store-products/BicycleCardSet.png",
+            "img_name":"../../../json/images/store-products/BicycleCardSet.png",
             "contains":"",
             "description":""
         },
@@ -11,7 +11,7 @@
             "id":2,
             "name":"Layered Chess Set",
             "price":"$44.99",
-            "img_name":"images/store-products/FunkyChessSet.png",
+            "img_name":"../../../json/images/store-products/FunkyChessSet.png",
             "contains":"",
             "description":""
         },
@@ -19,7 +19,7 @@
             "id":3,
             "name":"Set of 8 Puzzles",
             "price":"$25.99",
-            "img_name":"images/store-products/SetOfEightPuzzles.jpeg",
+            "img_name":"../../../json/images/store-products/SetOfEightPuzzles.jpeg",
             "contains":"",
             "description":""
         },
@@ -27,7 +27,7 @@
             "id":4,
             "name":"White Dice Set",
             "price":"$13.99",
-            "img_name":"images/store-products/DiceSet.png",
+            "img_name":"../../../json/images/store-products/DiceSet.png",
             "contains":"",
             "description":""
         }, 
@@ -35,7 +35,7 @@
             "id":5,
             "name":"Medieval Chess Set",
             "price":"$49.99",
-            "img_name":"images/store-products/MedievalChessSet.png",
+            "img_name":"../../../json/images/store-products/MedievalChessSet.png",
             "contains":"",
             "description":""
         }, 
@@ -43,7 +43,7 @@
             "id":6,
             "name":"VR Headset",
             "price":"$199.99",
-            "img_name":"images/store-products/VirtualHeadset.png",
+            "img_name":"../../../json/images/store-products/VirtualHeadset.png",
             "contains":"",
             "description":""
         }, 
@@ -51,7 +51,7 @@
             "id":7,
             "name":"Dominos",
             "price":"$15.99",
-            "img_name":"images/store-products/Dominos.png",
+            "img_name":"../../../json/images/store-products/Dominos.png",
             "contains":"",
             "description":""
         },
@@ -59,7 +59,7 @@
             "id":8,
             "name":"Red Dice Set",
             "price":"$13.99",
-            "img_name":"images/store-products/RedDiceSet.png",
+            "img_name":"../../../json/images/store-products/RedDiceSet.png",
             "contains":"",
             "description":""
         },  
@@ -67,7 +67,7 @@
             "id":9,
             "name":"Monopoly",
             "price":"$24.99",
-            "img_name":"images/store-products/Monopoly.png",
+            "img_name":"../../../json/images/store-products/Monopoly.png",
             "contains":"",
             "description":""
         }    
