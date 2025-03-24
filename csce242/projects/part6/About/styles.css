@@ -156,6 +156,21 @@ a{
     text-align:left;
 }
 
+#iframe{
+    margin-left:30%;
+    margin-top:50px;
+    border:15px solid #418195;
+}
+
+#form{
+    text-wrap: nowraps;
+    display:grid;
+    width:10%;
+    margin-left:45%;
+    margin-bottom:20px;
+    text-align:center;
+}
+
 #banner-menu{
     text-align:center;
     font-size: 35px;
